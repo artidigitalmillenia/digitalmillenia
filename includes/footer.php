@@ -37,11 +37,11 @@
               <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
                 <div class="footer__nav">
                   <ul class="footer-menu menu-anim">
-                    <li><a href="about.php">about us</a></li>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="career.php">Career</a></li>
-                    <li><a href="payment.php">Payment</a></li>
-                    <li><a href="contact.php">contact</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="payment.html">Payment</a></li>
+                    <li><a href="contact.html">contact</a></li>
                   </ul>
                 </div>
               </div>

@@ -64,17 +64,17 @@
   <header class="header__area-7">
     <div class="header__inner-2">
       <div class="header__logo-2">
-        <a href="index.php" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"></a>
-        <a href="index.php" class="logo-light"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"></a>
+        <a href="index.html" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"></a>
+        <a href="index.html" class="logo-light"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"></a>
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-4 menu-anim">
-            <li><a href="about.php">About</a></li>
-            <li><a href="solution.php">Solutions</a></li>
-            <li><a href="work.php">Work</a></li>
-            <li><a href="team.php">Team</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="solution.html">Solutions</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         
       </div>
@@ -92,7 +92,7 @@
     <div class="offcanvas__body">
       <div class="offcanvas__left">
         <div class="offcanvas__logo">
-          <a href="index.php"><img src="assets/imgs/logo/logo-black.png" alt="Offcanvas Logo"></a>
+          <a href="index.html"><img src="assets/imgs/logo/logo-black.png" alt="Offcanvas Logo"></a>
         </div>
         <div class="offcanvas__social">
           <h3 class="social-title">Follow Us On</h3>
@@ -111,12 +111,12 @@
         <div class="offcanvas__menu-wrapper">
           <nav class="offcanvas__menu">
             <ul class="menu-anim">
-            <li><a href="about.php">About</a></li>
-            <li><a href="solution.php">Solutions</a></li>
-            <li><a href="work.php">Work</a></li>
-            <li><a href="team.php">Team</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="solution.html">Solutions</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
