@@ -7,7 +7,7 @@
                       <p class="cta__sub-title-2">Have you project in mind?</p>
                       <h2 class="cta__title-2">Let’s make something great together!</h2>
                       <div class="btn_wrapper">
-                        <a href="contact.html" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br>with
+                        <a href="contact.php" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br>with
                           us <i class="fa-solid fa-arrow-right"></i></a>
                       </div>
                     </div>
@@ -50,7 +50,7 @@
             <div class="row">
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
                 <div class="footer__copyright-2">
-                  <p>© 2022 - 2025 | Alrights reserved by <a href="https://dev.wealcoder.com/" target="_blank">Wealcoder</a>
+                  <p>© 2022 - 2025 | Alrights reserved by <a href="https://digitalmillenia.com/" target="_blank">Digital Millenia</a>
                   </p>
                 </div>
               </div>

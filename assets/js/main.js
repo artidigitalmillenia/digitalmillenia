@@ -622,7 +622,7 @@
   // 15. Portfolio Slider 
   var total_portfolio_item = $('.portfolio__item-6').length;
   if (total_portfolio_item) {
-    $('.portfolio__total').html(total_portfolio_item);
+    $('.portfolio__total').php(total_portfolio_item);
   }
 
   $(document).on('scroll', function () {
@@ -630,7 +630,7 @@
       if ($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight()) > $(document).scrollTop()) {
 
         var item_num = $(this).data('portfitem');
-        $('.portfolio__current').html(item_num);
+        $('.portfolio__current').php(item_num);
         $(this).addClass('active').siblings().removeClass('active');
       }
     });
@@ -3002,7 +3002,7 @@
       part.className = "part";
       let el = document.createElement("a");
       el.className = "section";
-      el.href = "http://127.0.0.1:5500/service-details.html"
+      el.href = "http://127.0.0.1:5500/service-details.php"
 
       let img = document.createElement("img");
       img.src = images[current];
@@ -3103,7 +3103,7 @@
         for (let p in parts) {
           let part = parts[p];
           let next = document.createElement("a");
-          next.href = "http://127.0.0.1:5500/service-details.html"
+          next.href = "http://127.0.0.1:5500/service-details.php"
           next.className = "section";
           let img = document.createElement("img");
           img.src = images[current];
