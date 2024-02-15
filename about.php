@@ -344,24 +344,3 @@
 
 
 <?php include('includes/footer-cta.php'); ?>
-
-
-
-          
-          <div class="column-12 column-xs-12 column-sm-12 tab">
-            <div class="custom-row">
-             
-              <div class="column-6 column-md-6 hide-xs hide-sm box-tab">
-                <div class="effect grid-width6 effect-one">
-                  <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="img-fluid">
-                  <div class="tab-text">
-                    <h2 class="pt-2">column 6 grid</h2>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. </p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-       

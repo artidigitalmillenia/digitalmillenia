@@ -91,7 +91,7 @@
                   <h2 class="sec-title title-anim">We want to bring <br> business and the digital <br> world together
                   </h2>
                 </div>
-                  <img src="assets/imgs/graph.png" alt="digital millenia services" width="104%">
+                  <img src="assets/imgs/graph.png" alt="digital millenia services" width="100%">
               </div>
             </div>
           </div>

@@ -69,10 +69,49 @@
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-4 menu-anim">
-            <li><a href="about.php">About</a></li>
-            <li><a href="solution.php">Solutions</a></li>
-            <li><a href="work.php">Work</a></li>
-            <li><a href="team.php">Team</a></li>
+            <li><a href="about.php">Who We Are</a></li>
+            <li class="mega"><a href="solution.php">What We Do</a>
+          
+              <div class="mega-content">  
+                <div class="row">
+                  <div class="column-cat">
+                    <div class="category col-md-2">
+                      <h4><a href="/digitalmillenia/solution.php#development">Development</a> &nbsp;<i class="fa fa-chevron-right" style="font-size:18px !important"></i></h4>
+                    </div>
+                    <ul class="main-menu-4 menu-anim links col-md-11" style="padding-bottom:0 !important;">
+                      <li><a href="artificial-intelligence.php">Artificial Intelligence</a></li>
+                      <li><a href="cross-platform-applications.php">Cross Platform Applications</a></li>
+                      <li><a href="cloud-services.php">Cloud Services</a></li>
+                      <br>
+                      <li><a href="web-development-design-services.php">Web Development</a></li>
+                      <li><a href="manage-service-provider.php">Manage Service Provider</a></li>
+                      <li><a href="it-staff-augmentation.php">It Staff Augmentation</a></li>
+                    </ul>
+                    
+                  </div>
+                  <div class="column-cat category_hover">
+                    <div class="category col-md-2">
+                      <h4>Marketing &nbsp;<i class="fa fa-chevron-right" style="font-size:18px !important"></i></h4>
+                    </div>
+                    <ul class="main-menu-4 menu-anim links col-md-11" style="margin-top:-177px !important; padding-bottom:30px !important;">
+                      <li><a href="search-engine-optimization-seo.php">Search Engine Optimization (SEO)</a></li>
+                      <li><a href="social-media-marketing-smm.php">Social Media Marketing</a></li>
+                      <li><a href="search-engine-marketing-sem.php">Search Engine Marketing (SEM)</a></li>
+                      <br>
+                      <li><a href="email-marketing.php">Email Marketing</a></li>
+                      <li><a href="animation-and-motion-graphics.php">Animation & Motion Graphics</a></li>
+                    </ul>
+                  </div>
+                  <div class="category category_hover col-md-2" style="padding-bottom:100px !important;">
+                      <h4>Training</h4>
+                    </div>
+                </div>
+              </div>
+            
+
+            </li> 
+            <li><a href="work.php">Insights</a></li>
+           <!--  <li><a href="team.php">Team</a></li> -->
             <li><a href="career.php">Career</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
@@ -144,3 +183,88 @@
   <!-- Offcanvas area end -->
 
 
+
+  <style>
+    .mega-content {
+      display: none;
+      background-color: #fff;
+      color:var(--black-2);;
+      width: 100%;
+      left: 0;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 20px 50px;
+      position: fixed;
+      z-index: 1;
+     text-align:left;
+     
+    }
+
+    .links {
+      display: none;
+      margin-top: -50px !important;
+      padding-left: 200px;
+    
+    }
+    .mega:hover .mega-content {
+      display: block;
+    }
+    
+    .category_hover:hover{
+      padding-top:98px;
+    }
+  
+  </style>
+
+
+
+
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+  const columns = document.querySelectorAll('.column-cat');
+  const trainingCategory = document.querySelector('.category_hover');
+
+  trainingCategory.addEventListener('mouseenter', () => {
+    // Hide links in all columns except for the training column
+    columns.forEach(column => {
+      if (!column.classList.contains('category_hover')) {
+        column.querySelector('.links').style.display = 'none';
+      }
+    });
+  });
+
+  trainingCategory.addEventListener('mouseleave', () => {
+    // Show links in all columns when mouse leaves the training column
+    columns.forEach(column => {
+      column.querySelector('.links').style.display = 'none';
+    });
+  });
+
+  // Adjust the existing event listeners for other categories
+  columns.forEach(column => {
+    column.addEventListener('mouseenter', () => {
+      // Hide links in other columns when hovering over a specific column
+      columns.forEach(otherColumn => {
+        if (otherColumn !== column) {
+          otherColumn.querySelector('.links').style.display = 'none';
+        }
+      });
+      // Show links in hovered column
+      column.querySelector('.links').style.display = 'block';
+    });
+  });
+
+  // Adjust the existing event listener for mega header
+  document.querySelector('.mega').addEventListener('mouseenter', () => {
+    // Show links in the first column when mega header is hovered
+    columns[0].querySelector('.links').style.display = 'block';
+  });
+
+  document.querySelector('.mega').addEventListener('mouseleave', () => {
+    // Hide links in all columns when mouse leaves mega header
+    columns.forEach(column => {
+      column.querySelector('.links').style.display = 'none';
+    });
+  });
+});
+
+  </script>

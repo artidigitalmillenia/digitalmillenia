@@ -9341,7 +9341,6 @@ img {
 .service__detail-img {
   padding-right: 1px;
   position: relative;
-  margin-bottom: 60px;
   z-index: 9;
 }
 @media only screen and (max-width: 767px) {
@@ -9368,7 +9367,7 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 80px 1fr;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   grid-gap: 80px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -16493,7 +16492,7 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 80px 1fr;
-  grid-template-columns: 1fr 1fr;
+ /*  grid-template-columns: 1fr 1fr; */
   grid-gap: 80px;
   padding-bottom: 35px;
   margin-bottom: 30px;
@@ -34942,6 +34941,7 @@ ul.mega-menu-2.woocomerce-megamenu {
 	position: relative
 }
 
+
 .effect.effect-one img{
   display: flex;
   width: 600px; /* Adjust the size as needed */
@@ -35017,14 +35017,16 @@ ul.mega-menu-2.woocomerce-megamenu {
 .effect.effect-one:hover img {
 	opacity: .7;
 	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0) scale(1.1, 1.1)
+	transform: translate3d(0, 0, 0) scale(1.1, 1.1);
+  
 }
 
 .effect.effect-one:hover .tab-text::after,
 .effect.effect-one:hover .tab-text::before {
 	opacity: 1;
 	-webkit-transform: scale(1);
-	transform: scale(1)
+	transform: scale(1);
+  background-color: #00000094;
 }
 
 .effect.effect-one:hover h2,

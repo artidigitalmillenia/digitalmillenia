@@ -6,29 +6,25 @@
 
         <!-- Development area start -->
         <section class="development__area">
-          <div class="container g-0 line pt-130 pb-150">
-            <div class="line-3"></div>
+          <div class="container g-0 pt-130 pb-150">
             <div class="row">
               <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <div class="sec-title-wrapper">
-                  <h2 class="sec-title animation__char_come">Web and mobile development</h2>
+                  <h2 class="sec-title animation__char_come">Web Development</h2>
                 </div>
               </div>
-              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+              <div class="col-md-7">
                 <div class="development__wrapper">
                   <div class="development__content">
-                    <p>Every decision we make needs to answer the million-dollar question: how will this benefit our
-                      partner’s goal best? We work to develop solutions</p>
-                    <p>We like to be different, in the same way that every mission is different. Every project is an
-                      opportunity to create result that will help you</p>
+                    <p>Our experienced Website Developers are well-versed in front-end and back-end technologies, proficient in languages like HTML, CSS, JavaScript, and frameworks such as React or Angular. They excel in creating responsive, visually appealing, and user-friendly websites. With a deep understanding of UI/UX principles, they optimize performance and ensure cross-browser compatibility. Back-end proficiency includes server-side scripting languages like PHP, Python, or Node.js, coupled with database management using MySQL or MongoDB. Our seasoned developers are adept at version control systems (e.g., Git), possess strong problem-solving abilities, and stay updated on industry trends to deliver innovative and effective web solutions.</p>
                   </div>
                   <ul>
-                    <li>+ API Development</li>
-                    <li>+ WordPress</li>
-                    <li>+ Cloud Migration</li>
-                    <li>+ Front End Development</li>
-                    <li>+ JavaScript</li>
-                    <li>+ Fluter Framework</li>
+                    <li>+ Security & Defence</li>
+                    <li>+ Agri-Tech</li>
+                    <li>+ Health Care</li>
+                    <li>+ Animal Welfare</li>
+                    <li>+ Health & Safety</li>
+                    <li>+ Green-tech</li>
                   </ul>
                 </div>
               </div>
@@ -50,8 +46,7 @@
 
         <!-- Workflow area start -->
         <section class="workflow__area-6">
-          <div class="container g-0 line pb-130">
-            <div class="line-3"></div>
+          <div class="container g-0 pb-130">
             <div class="workflow__wrapper-6">
               <div class="row">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -94,8 +89,7 @@
 
         <!-- Service detail area start -->
         <section class="service__detail">
-          <div class="container g-0 line pb-140">
-            <div class="line-3"></div>
+          <div class="container g-0 pb-140">
             <div class="row">
               <div class="col-xxl-12">
                 <div class="sec-title-wrapper">
@@ -110,18 +104,38 @@
                 </div>
               </div>
               <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
+                
                 <div class="service__detail-img">
-                  <img src="assets/imgs/thumb/service-detail.png" alt="Service detail image">
-                  <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape">
+                <h2 class="sec-title title-anim">Challenge  <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape"></h2>
                 </div>
                 <div class="service__detail-content">
                   <p>Receive your design within a few business days, and be updated on the process. Everything you
                     need
                     for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel,
                     tone, movement, content - we've got it covered.</p>
-                  <p>Getting your brand message out there. We create dynamic campaign creative that engages audiences,
-                    wherever they are most talented. Bring your brand to life, communicate your value proposition with
-                    agile setup across creativity.</p>
+                  
+                </div>
+
+                <div class="service__detail-img pt-100">
+                <h2 class="sec-title title-anim">Solution  <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape"></h2>
+                </div>
+                <div class="service__detail-content">
+                  <p>Receive your design within a few business days, and be updated on the process. Everything you
+                    need
+                    for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel,
+                    tone, movement, content - we've got it covered.</p>
+                  
+                </div>
+
+                <div class="service__detail-img pt-100">
+                <h2 class="sec-title title-anim">Impact  <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape"></h2>
+                </div>
+                <div class="service__detail-content">
+                  <p>Receive your design within a few business days, and be updated on the process. Everything you
+                    need
+                    for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel,
+                    tone, movement, content - we've got it covered.</p>
+                  
                 </div>
               </div>
             </div>
@@ -131,9 +145,8 @@
 
 
         <!-- FAQ area start -->
-        <section class="faq__area">
-          <div class="container g-0 line pb-140">
-            <div class="line-3"></div>
+        <!-- <section class="faq__area">
+          <div class="container g-0 pb-140">
             <div class="row">
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div class="faq__img">
@@ -239,8 +252,8 @@
               </div>
             </div>
           </div>
-        </section>
-        <!-- FAQ area end -->
+        </section>-->
+        <!-- FAQ area end --> 
 
 
 <?php include('includes/footer-cta.php'); ?>
